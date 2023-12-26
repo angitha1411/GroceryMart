@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.obsqura.Listeners.ReportListener"></listener>
+	</listeners>
+	
+  <test name="LoginTest">
+  <parameter name="browser" value="Edge"></parameter>
+  <classes>
+  <class name="com.obsqura.test.LoginTest"/>
+  </classes>
+  </test>
+    <parameter name="browser" value="Firefox"></parameter>
+    <test name="ManageExpenseTest">
+  <classes>
+  <class name="com.obsqura.test.ManageExpenseTest"/>
+  </classes>
+  </test>
+  
+  <test name="CreateDeliveryBoyTest">
+    <parameter name="browser" value="Edge"></parameter>
+
+   <classes>
+  <class name="com.obsqura.test.CreateDeliveryBoy"/>
+  </classes>
+  </test>
+  
+  <test name="DataProvidersTest">
+    <parameter name="browser" value="Edge"></parameter>
+
+    <classes>
+    <class name="com.obsqura.test.CreateDeliveryBoyUsingDataProviders"/>
+     </classes>
+  </test>
+  <test name="ManageCategoryTest">
+  <parameter name="browser" value="Edge"></parameter>
+  <classes>
+  <class name="com.obsqura.test.ManageCategoryTest"/>
+  </classes>
+  </test>
+  
+  <test name="ManageExpenseTest">
+  <parameter name="browser" value="Edge"></parameter>
+  <classes>
+  <class name="com.obsqura.test.ManageExpenseTest"/>
+  </classes>
+  </test>
+  
+  <test name="ManageOrdersTest">
+  <parameter name="browser" value="Edge"></parameter>
+  <classes>
+  <class name="com.obsqura.test.ManageOrders"/>
+  </classes>
+  </test>
+  
+  <test name="ManagePaymentMethodsTest">
+  <parameter name="browser" value="Edge"></parameter>
+  <classes>
+  <class name="com.obsqura.test.ManagePaymentMethods"/>
+  </classes>
+  </test>
+  
+  <test name="PushNotifications">
+  <parameter name="browser" value="Edge"></parameter>
+  <classes>
+  <class name="com.obsqura.test.PushNotifications"/>
+  </classes>
+  </test>
+  
+  <test name="ManageLocationsTest">
+  <parameter name="browser" value="Edge"></parameter>
+  <classes>
+  <class name="com.obsqura.test.ManageLocations"/>
+  </classes>
+  </test>
+</suite> 

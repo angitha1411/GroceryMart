@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-26T18:31:45 IST" name="Suite" finished-at="2023-12-26T18:32:23 IST" duration-ms="37913">
+    <groups>
+      <group name="Smoke">
+        <method signature="ManageExpenseTest.ExpenseCategory()[pri:0, instance:com.obsqura.test.ManageExpenseTest@66982506]" name="ExpenseCategory" class="com.obsqura.test.ManageExpenseTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-12-26T18:31:45 IST" name="LoginTest" finished-at="2023-12-26T18:31:57 IST" duration-ms="11294">
+      <class name="com.obsqura.test.LoginTest">
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:com.obsqura.test.LoginTest@72035809]" started-at="2023-12-26T18:31:45 IST" name="initDriver" finished-at="2023-12-26T18:31:52 IST" duration-ms="6697" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.obsqura.test.LoginTest@72035809]" started-at="2023-12-26T18:31:52 IST" name="verifyLogin" finished-at="2023-12-26T18:31:56 IST" duration-ms="4085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.test.LoginTest@72035809]" started-at="2023-12-26T18:31:56 IST" name="tearDown" finished-at="2023-12-26T18:31:57 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.test.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2023-12-26T18:31:45 IST" name="ManageExpenseTest" finished-at="2023-12-26T18:31:59 IST" duration-ms="13243">
+      <class name="com.obsqura.test.ManageExpenseTest">
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:com.obsqura.test.ManageExpenseTest@66982506]" started-at="2023-12-26T18:31:45 IST" name="initDriver" finished-at="2023-12-26T18:31:55 IST" duration-ms="9152" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="ExpenseCategory()[pri:0, instance:com.obsqura.test.ManageExpenseTest@66982506]" started-at="2023-12-26T18:31:55 IST" name="ExpenseCategory" finished-at="2023-12-26T18:31:58 IST" duration-ms="3657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExpenseCategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.test.ManageExpenseTest@66982506]" started-at="2023-12-26T18:31:58 IST" name="tearDown" finished-at="2023-12-26T18:31:59 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.test.ManageExpenseTest -->
+    </test> <!-- ManageExpenseTest -->
+    <test started-at="2023-12-26T18:31:45 IST" name="CreateDeliveryBoyTest" finished-at="2023-12-26T18:32:04 IST" duration-ms="18851">
+      <class name="com.obsqura.test.CreateDeliveryBoy">
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:com.obsqura.test.CreateDeliveryBoy@6c4906d3]" started-at="2023-12-26T18:31:45 IST" name="initDriver" finished-at="2023-12-26T18:31:53 IST" duration-ms="7228" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="createDeliveryBoy()[pri:0, instance:com.obsqura.test.CreateDeliveryBoy@6c4906d3]" started-at="2023-12-26T18:31:53 IST" name="createDeliveryBoy" finished-at="2023-12-26T18:32:04 IST" duration-ms="11304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDeliveryBoy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.test.CreateDeliveryBoy@6c4906d3]" started-at="2023-12-26T18:32:04 IST" name="tearDown" finished-at="2023-12-26T18:32:04 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.test.CreateDeliveryBoy -->
+    </test> <!-- CreateDeliveryBoyTest -->
+    <test started-at="2023-12-26T18:32:04 IST" name="ManagePaymentMethodsTest" finished-at="2023-12-26T18:32:11 IST" duration-ms="6990">
+      <class name="com.obsqura.test.ManagePaymentMethods">
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:com.obsqura.test.ManagePaymentMethods@55cb6996]" started-at="2023-12-26T18:32:04 IST" name="initDriver" finished-at="2023-12-26T18:32:10 IST" duration-ms="5710" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="ManagePaymentMethods()[pri:0, instance:com.obsqura.test.ManagePaymentMethods@55cb6996]" started-at="2023-12-26T18:32:10 IST" name="ManagePaymentMethods" finished-at="2023-12-26T18:32:11 IST" duration-ms="1014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManagePaymentMethods -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.test.ManagePaymentMethods@55cb6996]" started-at="2023-12-26T18:32:11 IST" name="tearDown" finished-at="2023-12-26T18:32:11 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.test.ManagePaymentMethods -->
+    </test> <!-- ManagePaymentMethodsTest -->
+    <test started-at="2023-12-26T18:31:59 IST" name="ManageOrdersTest" finished-at="2023-12-26T18:32:13 IST" duration-ms="14023">
+      <class name="com.obsqura.test.ManageOrders">
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:com.obsqura.test.ManageOrders@15a34df2]" started-at="2023-12-26T18:31:59 IST" name="initDriver" finished-at="2023-12-26T18:32:07 IST" duration-ms="8412" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="Order()[pri:0, instance:com.obsqura.test.ManageOrders@15a34df2]" started-at="2023-12-26T18:32:07 IST" name="Order" finished-at="2023-12-26T18:32:12 IST" duration-ms="5259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Order -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.test.ManageOrders@15a34df2]" started-at="2023-12-26T18:32:12 IST" name="tearDown" finished-at="2023-12-26T18:32:13 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.test.ManageOrders -->
+    </test> <!-- ManageOrdersTest -->
+    <test started-at="2023-12-26T18:31:57 IST" name="ManageCategoryTest" finished-at="2023-12-26T18:32:15 IST" duration-ms="17260">
+      <class name="com.obsqura.test.ManageCategoryTest">
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:com.obsqura.test.ManageCategoryTest@3ad83a66]" started-at="2023-12-26T18:31:57 IST" name="initDriver" finished-at="2023-12-26T18:32:06 IST" duration-ms="8199" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="Category()[pri:0, instance:com.obsqura.test.ManageCategoryTest@3ad83a66]" started-at="2023-12-26T18:32:06 IST" name="Category" finished-at="2023-12-26T18:32:14 IST" duration-ms="8818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Category -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.test.ManageCategoryTest@3ad83a66]" started-at="2023-12-26T18:32:14 IST" name="tearDown" finished-at="2023-12-26T18:32:15 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.test.ManageCategoryTest -->
+    </test> <!-- ManageCategoryTest -->
+    <test started-at="2023-12-26T18:31:45 IST" name="DataProvidersTest" finished-at="2023-12-26T18:32:16 IST" duration-ms="30319">
+      <class name="com.obsqura.test.CreateDeliveryBoyUsingDataProviders">
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:com.obsqura.test.CreateDeliveryBoyUsingDataProviders@2a8448fa]" started-at="2023-12-26T18:31:45 IST" name="initDriver" finished-at="2023-12-26T18:31:54 IST" duration-ms="8981" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="createDeliverytBoyDataProviders(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.obsqura.test.CreateDeliveryBoyUsingDataProviders@2a8448fa]" started-at="2023-12-26T18:31:54 IST" name="createDeliverytBoyDataProviders" data-provider="GetData" finished-at="2023-12-26T18:32:03 IST" duration-ms="8509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[client26/12/2023 18:31:45]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jasna6268]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3466]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDeliverytBoyDataProviders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.test.CreateDeliveryBoyUsingDataProviders@2a8448fa]" started-at="2023-12-26T18:32:03 IST" name="tearDown" finished-at="2023-12-26T18:32:03 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:com.obsqura.test.CreateDeliveryBoyUsingDataProviders@2a8448fa]" started-at="2023-12-26T18:32:03 IST" name="initDriver" finished-at="2023-12-26T18:32:08 IST" duration-ms="4740" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="createDeliverytBoyDataProviders(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.obsqura.test.CreateDeliveryBoyUsingDataProviders@2a8448fa]" started-at="2023-12-26T18:32:08 IST" name="createDeliverytBoyDataProviders" data-provider="GetData" finished-at="2023-12-26T18:32:15 IST" duration-ms="7362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[client26/12/2023 18:31:45]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jasna9100]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[451]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDeliverytBoyDataProviders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.test.CreateDeliveryBoyUsingDataProviders@2a8448fa]" started-at="2023-12-26T18:32:15 IST" name="tearDown" finished-at="2023-12-26T18:32:16 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.test.CreateDeliveryBoyUsingDataProviders -->
+    </test> <!-- DataProvidersTest -->
+    <test started-at="2023-12-26T18:32:11 IST" name="ManageLocationsTest" finished-at="2023-12-26T18:32:22 IST" duration-ms="10957">
+      <class name="com.obsqura.test.ManageLocations">
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:com.obsqura.test.ManageLocations@26abb146]" started-at="2023-12-26T18:32:11 IST" name="initDriver" finished-at="2023-12-26T18:32:17 IST" duration-ms="5720" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="Location()[pri:0, instance:com.obsqura.test.ManageLocations@26abb146]" started-at="2023-12-26T18:32:17 IST" name="Location" finished-at="2023-12-26T18:32:22 IST" duration-ms="4868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Location -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.test.ManageLocations@26abb146]" started-at="2023-12-26T18:32:22 IST" name="tearDown" finished-at="2023-12-26T18:32:22 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.test.ManageLocations -->
+    </test> <!-- ManageLocationsTest -->
+    <test started-at="2023-12-26T18:32:13 IST" name="PushNotificationsTest" finished-at="2023-12-26T18:32:23 IST" duration-ms="10597">
+      <class name="com.obsqura.test.PushNotifications">
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:com.obsqura.test.PushNotifications@333d4a8c]" started-at="2023-12-26T18:32:13 IST" name="initDriver" finished-at="2023-12-26T18:32:18 IST" duration-ms="5515" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="PushNotifications()[pri:0, instance:com.obsqura.test.PushNotifications@333d4a8c]" started-at="2023-12-26T18:32:18 IST" name="PushNotifications" finished-at="2023-12-26T18:32:23 IST" duration-ms="4750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PushNotifications -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.test.PushNotifications@333d4a8c]" started-at="2023-12-26T18:32:23 IST" name="tearDown" finished-at="2023-12-26T18:32:23 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.test.PushNotifications -->
+    </test> <!-- PushNotificationsTest -->
+  </suite> <!-- Suite -->
+</testng-results>
